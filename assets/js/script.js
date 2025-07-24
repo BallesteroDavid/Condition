@@ -52,4 +52,32 @@ else {
     console.log(a + " est égal à " + b);
 }
 
+// vous allez vérifier le contenu d'une variable "pair", si le nombre est pair vous afficherez "true", sinon afficherez "false"
+
+var pair = 20;
+// if('nom de la variable' '%2 == 0'(formule modulo pour dire si un chiffre est pair) alors log affichera si le nombre est pair ou impaire)
+if( pair %2 === 0){
+    console.log(true);
+}else{
+    console.log(false);
+}
+
+// exo 4
+// vous allez vérifier si le contenu d'une variable username contient olivier. si elle ne contient pas olivier, alors on renvoie "welcome"
+// on refuse les username olivier
+// on accepte les olivier type pokemon
+// on refuse les pokemon type pokemon
+
+var userName = 'Olivier';
+const level = 'pokemon';
+if (userName !== "Olivier" && level !== "pokemon" || userName == 'Olivier' && level === "pokemon") {
+    console.log('accepted');
+} else {
+    console.log("notaccepted");
+}
+
+
+
+
+
 

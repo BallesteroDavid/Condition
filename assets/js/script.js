@@ -76,6 +76,30 @@ if (userName !== "Olivier" && level !== "pokemon" || userName == 'Olivier' && le
     console.log("notaccepted");
 }
 
+// bonus 
+// 1 - afficher "tarif réduit" si user = student ou que heure entre 22h et 5h sinon afficher "tarif plein"
+
+let user;
+let heure = 21
+
+if (user == 'student' || heure >= 5 && heure <= 22){
+    console.log('tarif réduit');
+
+}else {
+    console.log('tarif plein');
+    
+}
+
+// 2 - un client peu avoir 20% de réduction sur ces achats si c'est son anniversaire ou qu'il a un solde (ses dépenses) de plus 1000 euros
+let birthday; 
+let solde;
+
+// 3 - afficher "ok" si x est positif et y est pair ou x est positif et z est entre 5 et 10 
+let x;
+let y;
+let z;
+
+
 
 
 
